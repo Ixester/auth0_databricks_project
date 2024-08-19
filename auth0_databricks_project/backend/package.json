@@ -1,0 +1,15 @@
+{
+  "name": "auth0-databricks-backend",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "jwks-rsa": "^2.0.5",
+    "dotenv": "^10.0.0",
+    "axios": "^0.21.1"
+  },
+  "scripts": {
+    "start": "node src/app.js"
+  }
+}
